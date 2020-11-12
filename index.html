@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task</title>
+</head>
+
+<body>
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <img src="images/avatar.jpg" alt="Fuck Me" class="center">
+
+    <br>
+    <br>
+
+    <div class="all">
+
+        <div class="row">
+            <div class="column">
+                <img src="images/av3.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/av2.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/av1.jpg" alt="" style="width:100%">
+            </div>
+        </div>
+
+        <br/>
+
+        <div class="row">
+            <div class="column">
+                <img src="images/av6.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/av5.jpg" alt="" style="width:100%">
+            </div>
+            <div class="column">
+                <img src="images/av4.jpg" alt="" style="width:100%">
+            </div>
+        </div>
+
+        <div class="container">
+            <form action="/" method="GET">
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                <option value="australia" selected>Egypt</option>
+                <option value="canada">UK</option>
+                <option value="usa">USA</option>
+              </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+</body>
+
+</html>
